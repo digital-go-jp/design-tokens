@@ -1,0 +1,7 @@
+{
+  "extends": "@tsconfig/node16-strictest/tsconfig.json",
+  "compilerOptions": {
+    "resolveJsonModule": true
+  },
+  "exclude": ["node_modules", "dist"]
+}

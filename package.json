@@ -1,0 +1,51 @@
+{
+  "name": "@takumi-hatta/design-tokens",
+  "version": "0.0.0",
+  "homepage": "https://github.com/digital-go-jp/design-tokens#readme",
+  "style": "dist/tokens.css",
+  "main": "dist/tokens.js",
+  "typings": "dist/tokens.d.ts",
+  "files": [
+    "dist/**"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@git@github.com:digital-go-jp/design-tokens.git"
+  },
+  "author": "takumi-hatta",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "husky install",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx}\"",
+    "format:check": "prettier --check \"**/*.{js,jsx,ts,tsx}\"",
+    "lint": "eslint './**/*.{js,ts}'",
+    "type:check": "tsc --noEmit",
+    "build-tokens": "./scripts/transform-figma-tokens.sh",
+    "transform-figma-tokens": "token-transformer figma/tokens.json style-dictionary/tokens.json --resolveReferences false",
+    "transform": "tsx style-dictionary/transform.ts"
+  },
+  "devDependencies": {
+    "@tsconfig/node16-strictest": "^1.0.4",
+    "@typescript-eslint/eslint-plugin": "^5.54.1",
+    "@typescript-eslint/parser": "^5.54.1",
+    "eslint": "^8.36.0",
+    "eslint-config-prettier": "^8.7.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.0",
+    "prettier": "2.8.4",
+    "style-dictionary": "^3.7.2",
+    "token-transformer": "^0.0.30",
+    "tsx": "^3.12.3",
+    "typescript": "^4.9.5"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "npm run format:check",
+      "npm run lint"
+    ]
+  },
+  "engines": {
+    "node": "16.x || 18.x"
+  },
+  "engineStrict": true
+}

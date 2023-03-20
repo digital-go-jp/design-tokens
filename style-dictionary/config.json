@@ -1,0 +1,55 @@
+{
+  "source": ["style-dictionary/tokens.json"],
+  "platforms": {
+    "css": {
+      "transformGroup": "da/css",
+      "buildPath": "dist/",
+      "files": [
+        {
+          "destination": "tokens.css",
+          "format": "css/variables",
+          "filter": "da/filter-tokens",
+          "options": {
+            "outputReferences": true
+          }
+        }
+      ]
+    },
+    "scss": {
+      "transformGroup": "da/scss",
+      "buildPath": "dist/",
+      "files": [
+        {
+          "destination": "tokens.scss",
+          "format": "scss/variables",
+          "filter": "da/filter-tokens",
+          "options": {
+            "outputReferences": true
+          }
+        }
+      ]
+    },
+    "ts": {
+      "transformGroup": "da/ts",
+      "buildPath": "dist/",
+      "files": [
+        {
+          "format": "javascript/module",
+          "destination": "tokens.js",
+          "filter": "da/filter-tokens",
+          "options": {
+            "outputReferences": true
+          }
+        },
+        {
+          "format": "typescript/module-declarations",
+          "destination": "tokens.d.ts",
+          "filter": "da/filter-tokens",
+          "options": {
+            "outputReferences": true
+          }
+        }
+      ]
+    }
+  }
+}

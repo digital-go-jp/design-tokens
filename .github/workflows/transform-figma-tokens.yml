@@ -1,0 +1,29 @@
+name: Transform figma tokens
+on:
+  push:
+    branches:
+      - figma
+    paths:
+      - 'figma/tokens.json'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.16.0
+      - name: Setup
+        run: npm install
+      - name: Transform figma tokens
+        run: npm run build-tokens
+      - name: Create PR
+        uses: peter-evans/create-pull-request@v4
+        with:
+          token: ${{ secrets.CREATE_PR }}
+          delete-branch: true
+          base: 'figma'
+          branch: 'update-tokens'
+          commit-message: 'transform figma tokens'
+          title: 'Transform figma tokens'
+          body: 'Please review a token file for StyleDictionary.'
