@@ -10,6 +10,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16.16.0
+          registry-url: 'https://registry.npmjs.org'
       - run: npm install
       - run: npm run transform
       - run: npm publish --access=public
