@@ -10,7 +10,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:digital-go-jp/design-tokens.git"
+    "url": "https://github.com/digital-go-jp/design-tokens.git"
+  },
+  "bugs": {
+    "url": "https://github.com/digital-go-jp/design-tokens/issues"
   },
   "author": "takumi-hatta",
   "license": "MIT",
