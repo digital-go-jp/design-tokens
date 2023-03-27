@@ -11,7 +11,7 @@ jobs:
         with:
           node-version: 16.16.0
           registry-url: 'https://registry.npmjs.org'
-      - run: npm install
+      - run: npm ci
       - run: npm run transform
       - run: npm publish --access=public
         env:
