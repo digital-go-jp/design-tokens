@@ -43,3 +43,8 @@ $ npm run transform
 [Tokens Studio for Figma](https://github.com/tokens-studio/figma-plugin) との連携用のブランチです。  
 figma/tokens.json が更新された場合のみ、StyleDictionary 用の json に変換して PR を作成してくれる Actions が実行されます。  
 また、スクリプトの作成や更新等もこのブランチを元に行います。
+
+## 注意事項
+
+デザインシステムの変更がまだ多い状況のため、Design Tokens自体の変更が多いです。  
+α版と思って利用してください。  
