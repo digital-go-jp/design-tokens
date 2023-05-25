@@ -2,7 +2,7 @@ name: Transform figma tokens
 on:
   push:
     branches:
-      - figma
+      - develop
     paths:
       - 'figma/tokens.json'
 jobs:
@@ -10,10 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Use Node.js 16.16.0
+      - name: Use Node.js 18.13.0
         uses: actions/setup-node@v3
         with:
-          node-version: 16.16.0
+          node-version: 18.13.0
       - name: Setup
         run: npm install
       - name: Transform figma tokens
@@ -23,8 +23,8 @@ jobs:
         with:
           token: ${{ secrets.CREATE_PR }}
           delete-branch: true
-          base: 'figma'
-          branch: 'update-tokens'
+          base: 'develop'
+          branch: 'update-design-tokens'
           commit-message: 'transform figma tokens'
           title: 'Transform figma tokens'
           body: 'Please review a token file for StyleDictionary.'
