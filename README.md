@@ -17,6 +17,8 @@ $ npm install @digital-go-jp/design-tokens
 2. 出力された json を StyleDictionary で扱いやすい json に変換
 3. StyleDictionary を実行し、css, scss, js + d.ts ファイルを出力
 
+<img src="./assets/sequence.png">
+
 ## 主なプラグインやライブラリ
 
 - [Tokens Studio for Figma](https://github.com/tokens-studio/figma-plugin)
@@ -40,5 +42,5 @@ $ npm run transform
 
 ## 注意事項
 
-デザインシステムの変更がまだ多い状況のため、Design Tokens自体の変更が多いです。  
-α版と思って利用してください。  
+デザインシステムの変更がまだ多い状況のため、Design Tokens 自体の変更が多いです。  
+α 版と思って利用してください。
