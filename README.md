@@ -58,6 +58,7 @@ $ npm install @digital-go-jp/design-tokens
 ### JavaScript
 
 以下のパッケージのようにトークンを利用しています。
+
 https://www.npmjs.com/package/@digital-go-jp/tailwind-theme-plugin
 
 ## デザイントークンの変換の仕組み
