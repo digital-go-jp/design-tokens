@@ -66,7 +66,7 @@ https://www.npmjs.com/package/@digital-go-jp/tailwind-theme-plugin
 2. 出力された json を StyleDictionary で扱いやすい json に変換
 3. StyleDictionary を実行し、css, scss, js ファイルを出力
 
-<img src="./assets/sequence.png">
+<img src="./public/sequence.png">
 
 ## 主な利用プラグインやライブラリ
 
