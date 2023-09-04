@@ -61,11 +61,11 @@ $ npm install @digital-go-jp/design-tokens
 
 https://www.npmjs.com/package/@digital-go-jp/tailwind-theme-plugin
 
-## Figmaとのバージョン対応について
+## Figma（デザインシステム）とのバージョン対応表
 
 | Figmaのバージョン | npmのバージョン |
 | ----------------- | --------------- |
-| 1.3.4             | 0.0.10          |
+| 1.3.4             | 0.0.11          |
 | 1.3.3             | 0.0.9           |
 
 ## デザイントークンの変換の仕組み
