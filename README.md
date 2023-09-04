@@ -57,8 +57,16 @@ $ npm install @digital-go-jp/design-tokens
 
 ### JavaScript
 
-以下のパッケージのようにトークンを利用しています。
+参考として、以下のnpmパッケージのようにトークンを利用しています。
+
 https://www.npmjs.com/package/@digital-go-jp/tailwind-theme-plugin
+
+## Figmaとのバージョン対応について
+
+| Figmaのバージョン | npmのバージョン |
+| ----------------- | --------------- |
+| 1.3.4             | 0.0.10          |
+| 1.3.3             | 0.0.9           |
 
 ## デザイントークンの変換の仕組み
 
