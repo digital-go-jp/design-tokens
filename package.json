@@ -1,6 +1,6 @@
 {
   "name": "@digital-go-jp/design-tokens",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "homepage": "https://github.com/digital-go-jp/design-tokens#readme",
   "style": "dist/tokens.css",
   "main": "dist/tokens.js",
@@ -48,7 +48,7 @@
     ]
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=16"
   },
   "engineStrict": true
 }
