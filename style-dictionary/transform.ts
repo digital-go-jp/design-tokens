@@ -17,19 +17,39 @@ StyleDictionary.registerTransform({
   },
 });
 
+StyleDictionary.registerTransform({
+  name: 'shadow',
+  type: 'value',
+  matcher: function (prop) {
+    return prop.type === 'boxShadow';
+  },
+  transformer: function (token) {
+    const v1 = token.value[0];
+    const v2 = token.value[1];
+
+    return `${v1.x} ${v1.y} ${v1.blur} ${v1.spread} ${v1.color}, ${v2.x} ${v2.y} ${v2.blur} ${v2.spread} ${v2.color}`;
+  },
+});
+
 StyleDictionary.registerTransformGroup({
   name: 'da/css',
-  transforms: (StyleDictionary.transformGroup['css'] ?? []).concat(['px-rem-transformer']),
+  transforms: (StyleDictionary.transformGroup['css'] ?? []).concat([
+    'px-rem-transformer',
+    'shadow',
+  ]),
 });
 
 StyleDictionary.registerTransformGroup({
   name: 'da/scss',
-  transforms: (StyleDictionary.transformGroup['scss'] ?? []).concat(['px-rem-transformer']),
+  transforms: (StyleDictionary.transformGroup['scss'] ?? []).concat([
+    'px-rem-transformer',
+    'shadow',
+  ]),
 });
 
 StyleDictionary.registerTransformGroup({
   name: 'da/ts',
-  transforms: (StyleDictionary.transformGroup['js'] ?? []).concat(['px-rem-transformer']),
+  transforms: (StyleDictionary.transformGroup['js'] ?? []).concat(['px-rem-transformer', 'shadow']),
 });
 
 StyleDictionary.registerFilter({

@@ -65,6 +65,7 @@ https://www.npmjs.com/package/@digital-go-jp/tailwind-theme-plugin
 
 | Figmaのバージョン | npmのバージョン |
 | ----------------- | --------------- |
+| 1.4.0             | 0.0.14          |
 | 1.3.4             | 0.0.13          |
 | 1.3.3             | 0.0.9           |
 
