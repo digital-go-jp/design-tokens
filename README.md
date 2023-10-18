@@ -67,7 +67,6 @@ https://www.npmjs.com/package/@digital-go-jp/tailwind-theme-plugin
 | ----------------- | --------------- |
 | 1.4.0             | 0.0.15          |
 | 1.3.4             | 0.0.13          |
-| 1.3.3             | 0.0.9           |
 
 ## デザイントークンの変換の仕組み
 
