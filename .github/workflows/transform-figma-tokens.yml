@@ -27,4 +27,4 @@ jobs:
           branch: 'update-design-tokens'
           commit-message: 'transform figma tokens'
           title: 'Transform figma tokens'
-          body: 'Please review a token file for StyleDictionary.'
+          body: 'Please review the tokens.json for StyleDictionary.'
