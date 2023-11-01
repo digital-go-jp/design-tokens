@@ -40,14 +40,6 @@ StyleDictionary.registerTransformGroup({
 });
 
 StyleDictionary.registerTransformGroup({
-  name: 'da/scss',
-  transforms: (StyleDictionary.transformGroup['scss'] ?? []).concat([
-    'px-rem-transformer',
-    'shadow',
-  ]),
-});
-
-StyleDictionary.registerTransformGroup({
   name: 'da/ts',
   transforms: (StyleDictionary.transformGroup['js'] ?? []).concat(['px-rem-transformer', 'shadow']),
 });
