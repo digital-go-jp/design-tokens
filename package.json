@@ -23,23 +23,22 @@
     "format:check": "prettier --check \"**/*.{js,jsx,ts,tsx}\"",
     "lint": "eslint './**/*.{js,ts}'",
     "type:check": "tsc --noEmit",
-    "build-tokens": "./scripts/transform-figma-tokens.sh",
     "transform-figma-tokens": "token-transformer figma/tokens.json style-dictionary/tokens.json --resolveReferences false",
-    "transform": "tsx style-dictionary/transform.ts"
+    "build": "tsx style-dictionary/transform.ts"
   },
   "devDependencies": {
-    "@tsconfig/node18": "^2.0.0",
-    "@typescript-eslint/eslint-plugin": "^6.4.1",
-    "@typescript-eslint/parser": "^6.4.1",
-    "eslint": "^8.47.0",
+    "@tsconfig/node18": "^18.2.2",
+    "@typescript-eslint/eslint-plugin": "^6.9.1",
+    "@typescript-eslint/parser": "^6.9.1",
+    "eslint": "^8.52.0",
     "eslint-config-prettier": "^9.0.0",
     "husky": "^8.0.3",
-    "lint-staged": "^14.0.1",
-    "prettier": "^3.0.2",
-    "style-dictionary": "^3.8.0",
+    "lint-staged": "^15.0.2",
+    "prettier": "^3.0.3",
+    "style-dictionary": "^3.9.0",
     "token-transformer": "^0.0.33",
-    "tsx": "^3.12.7",
-    "typescript": "^5.1.6"
+    "tsx": "^3.14.0",
+    "typescript": "^5.2.2"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
@@ -48,7 +47,7 @@
     ]
   },
   "engines": {
-    "node": ">=16"
+    "node": ">=18"
   },
   "engineStrict": true
 }
