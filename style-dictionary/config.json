@@ -15,20 +15,6 @@
         }
       ]
     },
-    "scss": {
-      "transformGroup": "da/scss",
-      "buildPath": "dist/",
-      "files": [
-        {
-          "destination": "tokens.scss",
-          "format": "scss/variables",
-          "filter": "da/filter-tokens",
-          "options": {
-            "outputReferences": true
-          }
-        }
-      ]
-    },
     "ts": {
       "transformGroup": "da/ts",
       "buildPath": "dist/",
