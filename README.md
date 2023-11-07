@@ -15,21 +15,13 @@ $ npm install @digital-go-jp/design-tokens
 ### CSS
 
 ```css
-@import url("node_modules/@digital-go-jp/design-tokens/dist/tokens.css");
+@import url('node_modules/@digital-go-jp/design-tokens/dist/tokens.css');
 
-.button {
-  padding: 16px;
-  font-size: var(--text-button-font-size)
-  font-weight: var(--text-button-font-weight);
-  line-height: var(--text-button-line-height);
-  letter-spacing: var(--text-button-letter-spacing)
-  background-color: var(--color-light-button-normal);
-  border-radius: var(--border-radius-sm);
-  color: var(--light-text-on-fill);
-}
-
-.button:hover {
-  background-color: var(--light-button-hover);
+.std-b45-4 {
+  font-size: var(--font-size-45);
+  font-weight: var(--font-weight-b);
+  line-height: var(--line-height-1-4);
+  letter-spacing: var(--letter-spacing-0-1125);
 }
 ```
 
@@ -60,12 +52,12 @@ const myPlugin = plugin(() => {}, {
         },
       },
       fontSize: {
-        heading1: [
-          tokens.Text.FontSize['48'].value,
+        'std-b45-4': [
+          tokens.FontSize['48'].value,
           {
-            fontWeight: tokens.FontWeight.Bold.value,
-            lineHeight: tokens.LineHeight['1-5'].value,
-            letterSpacing: tokens.LetterSpacing.md.value,
+            fontWeight: tokens.FontWeight.B.value,
+            lineHeight: tokens.LineHeight['1_4'].value,
+            letterSpacing: tokens.LetterSpacing['0_1125'].value,
           },
         ],
       },
@@ -80,8 +72,8 @@ export default myPlugin;
 
 | Figmaのバージョン | npmのバージョン |
 | ----------------- | --------------- |
+| 1.4.1             | 0.1.0           |
 | 1.4.0             | 0.0.16          |
-| 1.3.4             | 0.0.13          |
 
 ## デザイントークンの変換の仕組み
 
