@@ -1,6 +1,6 @@
 {
   "name": "@digital-go-jp/design-tokens",
-  "version": "0.0.16",
+  "version": "0.1.0",
   "homepage": "https://github.com/digital-go-jp/design-tokens#readme",
   "style": "dist/tokens.css",
   "main": "dist/tokens.js",
@@ -28,9 +28,9 @@
   },
   "devDependencies": {
     "@tsconfig/node18": "^18.2.2",
-    "@typescript-eslint/eslint-plugin": "^6.9.1",
-    "@typescript-eslint/parser": "^6.9.1",
-    "eslint": "^8.52.0",
+    "@typescript-eslint/eslint-plugin": "^6.10.0",
+    "@typescript-eslint/parser": "^6.10.0",
+    "eslint": "^8.53.0",
     "eslint-config-prettier": "^9.0.0",
     "husky": "^8.0.3",
     "lint-staged": "^15.0.2",
@@ -41,7 +41,7 @@
     "typescript": "^5.2.2"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
+    "*.{js,ts}": [
       "npm run format:check",
       "npm run lint"
     ]
