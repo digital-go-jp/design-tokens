@@ -19,7 +19,7 @@ $ npm install @digital-go-jp/design-tokens
 
 .std-b45-4 {
   font-size: var(--font-size-45);
-  font-weight: var(--font-weight-b);
+  font-weight: var(--font-weight-700);
   line-height: var(--line-height-1-4);
   letter-spacing: var(--letter-spacing-0-1125);
 }
@@ -55,7 +55,7 @@ const myPlugin = plugin(() => {}, {
         'std-b45-4': [
           tokens.FontSize['48'].value,
           {
-            fontWeight: tokens.FontWeight.B.value,
+            fontWeight: tokens.FontWeight['700'].value,
             lineHeight: tokens.LineHeight['1_4'].value,
             letterSpacing: tokens.LetterSpacing['0_1125'].value,
           },
