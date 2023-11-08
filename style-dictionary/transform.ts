@@ -18,7 +18,7 @@ StyleDictionary.registerTransform({
 });
 
 StyleDictionary.registerTransform({
-  name: 'shadow',
+  name: 'shadow-transformer',
   type: 'value',
   matcher: function (prop) {
     return prop.type === 'boxShadow';
@@ -35,13 +35,16 @@ StyleDictionary.registerTransformGroup({
   name: 'da/css',
   transforms: (StyleDictionary.transformGroup['css'] ?? []).concat([
     'px-rem-transformer',
-    'shadow',
+    'shadow-transformer',
   ]),
 });
 
 StyleDictionary.registerTransformGroup({
   name: 'da/ts',
-  transforms: (StyleDictionary.transformGroup['js'] ?? []).concat(['px-rem-transformer', 'shadow']),
+  transforms: (StyleDictionary.transformGroup['js'] ?? []).concat([
+    'px-rem-transformer',
+    'shadow-transformer',
+  ]),
 });
 
 StyleDictionary.registerFilter({
