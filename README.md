@@ -17,7 +17,7 @@ $ npm install @digital-go-jp/design-tokens
 ```css
 @import url('node_modules/@digital-go-jp/design-tokens/dist/tokens.css');
 
-.std-b45-4 {
+.std-45B-4 {
   font-size: var(--font-size-45);
   font-weight: var(--font-weight-700);
   line-height: var(--line-height-1-4);
@@ -52,7 +52,7 @@ const myPlugin = plugin(() => {}, {
         },
       },
       fontSize: {
-        'std-b45-4': [
+        'std-45B-4': [
           tokens.FontSize['48'].value,
           {
             fontWeight: tokens.FontWeight['700'].value,
@@ -72,7 +72,7 @@ export default myPlugin;
 
 | Figmaのバージョン | npmのバージョン |
 | ----------------- | --------------- |
-| 1.4.1             | 0.1.0           |
+| 1.x.x             | 0.1.1           |
 | 1.4.0             | 0.0.16          |
 
 ## デザイントークンの変換の仕組み
