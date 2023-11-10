@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/digital-go-jp/design-tokens/issues"
   },
-  "author": "takumi-hatta",
+  "author": "Digital Agency",
   "license": "MIT",
   "scripts": {
     "prepare": "husky install",
