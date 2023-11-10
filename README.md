@@ -75,14 +75,8 @@ export default myPlugin;
 | 1.x.x             | 0.1.1           |
 | 1.4.0             | 0.0.16          |
 
-## デザイントークンの変換の仕組み
+## 関連パッケージ
 
-1. [Tokens Studio for Figma](https://github.com/tokens-studio/figma-plugin)でデザイントークンを json として出力
-2. 出力された json を StyleDictionary で扱いやすい json に変換
-3. StyleDictionary を実行し、css, js ファイルを出力
-
-## 主な利用プラグインやライブラリ
-
-- [Tokens Studio for Figma](https://github.com/tokens-studio/figma-plugin)
-- [Token Transformer](https://github.com/tokens-studio/figma-plugin/tree/main/token-transformer)
-- [StyleDictionary](https://github.com/amzn/style-dictionary)
+- @digital-go-jp/tailwind-theme-plugin
+  - [npm](https://www.npmjs.com/package/@digital-go-jp/tailwind-theme-plugin)
+  - [GitHub](https://github.com/digital-go-jp/tailwind-theme-plugin)
