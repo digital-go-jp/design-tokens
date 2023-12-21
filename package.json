@@ -30,9 +30,9 @@
     "@tsconfig/node18": "^18.2.2",
     "husky": "^8.0.3",
     "lint-staged": "^15.2.0",
-    "style-dictionary": "^3.9.0",
+    "style-dictionary": "^3.9.1",
     "token-transformer": "^0.0.33",
-    "tsx": "^4.6.2",
+    "tsx": "^4.7.0",
     "typescript": "^5.3.3"
   },
   "lint-staged": {
