@@ -73,11 +73,5 @@ export default myPlugin;
 
 | Figma のバージョン | npm のバージョン |
 | ------------------ | ---------------- |
-| 1.4.1              | 0.1.2            |
+| 1.4.1              | 0.1.3            |
 | 1.4.0              | 0.0.16           |
-
-## 関連パッケージ
-
-- @digital-go-jp/tailwind-theme-plugin
-  - [npm](https://www.npmjs.com/package/@digital-go-jp/tailwind-theme-plugin)
-  - [GitHub](https://github.com/digital-go-jp/tailwind-theme-plugin)
