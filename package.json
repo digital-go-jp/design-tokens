@@ -1,6 +1,6 @@
 {
   "name": "@digital-go-jp/design-tokens",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/digital-go-jp/design-tokens#readme",
   "style": "dist/tokens.css",
   "main": "dist/tokens.js",
@@ -19,30 +19,25 @@
   "license": "MIT",
   "scripts": {
     "prepare": "husky install",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx}\"",
-    "format:check": "prettier --check \"**/*.{js,jsx,ts,tsx}\"",
-    "lint": "eslint './**/*.{js,ts}'",
+    "format": "biome format --write **/*.ts **/*.js **/*.json",
+    "lint": "biome lint **/*.ts **/*.js",
     "type:check": "tsc --noEmit",
     "transform-figma-tokens": "token-transformer figma/tokens.json style-dictionary/tokens.json --resolveReferences false",
     "build": "tsx style-dictionary/transform.ts"
   },
   "devDependencies": {
+    "@biomejs/biome": "1.4.1",
     "@tsconfig/node18": "^18.2.2",
-    "@typescript-eslint/eslint-plugin": "^6.10.0",
-    "@typescript-eslint/parser": "^6.10.0",
-    "eslint": "^8.53.0",
-    "eslint-config-prettier": "^9.0.0",
     "husky": "^8.0.3",
-    "lint-staged": "^15.0.2",
-    "prettier": "^3.0.3",
-    "style-dictionary": "^3.9.0",
+    "lint-staged": "^15.2.0",
+    "style-dictionary": "^3.9.1",
     "token-transformer": "^0.0.33",
-    "tsx": "^3.14.0",
-    "typescript": "^5.2.2"
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
   },
   "lint-staged": {
     "*.{js,ts}": [
-      "npm run format:check",
+      "npm run format",
       "npm run lint"
     ]
   },
