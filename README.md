@@ -1,6 +1,6 @@
 # Design Tokens
 
-[デジタル庁 デザインシステム（Figma）](https://www.figma.com/community/file/1255349027535859598)のデザイントークンです。  
+[デジタル庁 デザインシステム（Figma）](https://www.figma.com/community/file/1255349027535859598)のデザイントークンです。
 CSS, JavaScript のいずれかで扱えます。
 
 [![npm version](https://badge.fury.io/js/@digital-go-jp%2Fdesign-tokens.svg)](https://badge.fury.io/js/@digital-go-jp%2Fdesign-tokens)
@@ -16,7 +16,7 @@ $ npm install @digital-go-jp/design-tokens
 ### CSS
 
 ```css
-@import url('node_modules/@digital-go-jp/design-tokens/dist/tokens.css');
+@import url("node_modules/@digital-go-jp/design-tokens/dist/tokens.css");
 
 .std-45B-4 {
   font-size: var(--font-size-45);
@@ -29,8 +29,8 @@ $ npm install @digital-go-jp/design-tokens
 ### JavaScript
 
 ```ts
-import plugin from 'tailwindcss/plugin';
-import tokens from '@digital-go-jp/design-tokens';
+import plugin from "tailwindcss/plugin";
+import tokens from "@digital-go-jp/design-tokens";
 
 const myPlugin = plugin(() => {}, {
   theme: {
@@ -53,12 +53,12 @@ const myPlugin = plugin(() => {}, {
         },
       },
       fontSize: {
-        'std-45B-4': [
-          tokens.FontSize['48'].value,
+        "std-45B-4": [
+          tokens.FontSize["48"].value,
           {
-            fontWeight: tokens.FontWeight['700'].value,
-            lineHeight: tokens.LineHeight['1_4'].value,
-            letterSpacing: tokens.LetterSpacing['0_1125'].value,
+            fontWeight: tokens.FontWeight["700"].value,
+            lineHeight: tokens.LineHeight["1_4"].value,
+            letterSpacing: tokens.LetterSpacing["0_1125"].value,
           },
         ],
       },
@@ -71,10 +71,10 @@ export default myPlugin;
 
 ## Figma（デザインシステム）とのバージョン対応表
 
-| Figmaのバージョン | npmのバージョン |
-| ----------------- | --------------- |
-| 1.x.x             | 0.1.1           |
-| 1.4.0             | 0.0.16          |
+| Figma のバージョン | npm のバージョン |
+| ------------------ | ---------------- |
+| 1.4.1              | 0.1.2            |
+| 1.4.0              | 0.0.16           |
 
 ## 関連パッケージ
 
