@@ -22,7 +22,7 @@ $ npm install @digital-go-jp/design-tokens
   font-size: var(--font-size-45);
   font-weight: var(--font-weight-700);
   line-height: var(--line-height-1-4);
-  letter-spacing: var(--letter-spacing-0-1125);
+  letter-spacing: var(--letter-spacing-0-05625);
 }
 ```
 
@@ -32,7 +32,7 @@ $ npm install @digital-go-jp/design-tokens
 import plugin from "tailwindcss/plugin";
 import tokens from "@digital-go-jp/design-tokens";
 
-const myPlugin = plugin(() => {}, {
+const themePlugin = plugin(() => {}, {
   theme: {
     extend: {
       colors: {
@@ -58,7 +58,7 @@ const myPlugin = plugin(() => {}, {
           {
             fontWeight: tokens.FontWeight["700"].value,
             lineHeight: tokens.LineHeight["1_4"].value,
-            letterSpacing: tokens.LetterSpacing["0_1125"].value,
+            letterSpacing: tokens.LetterSpacing["0_05625"].value,
           },
         ],
       },
@@ -66,12 +66,12 @@ const myPlugin = plugin(() => {}, {
   },
 });
 
-export default myPlugin;
+export default themePlugin;
 ```
 
 ## Figma（デザインシステム）とのバージョン対応表
 
 | Figma のバージョン | npm のバージョン |
 | ------------------ | ---------------- |
-| 1.4.1              | 0.1.3            |
+| 1.4.1              | 0.1.4            |
 | 1.4.0              | 0.0.16           |
