@@ -22,7 +22,7 @@ $ npm install @digital-go-jp/design-tokens
   font-size: var(--font-size-45);
   font-weight: var(--font-weight-700);
   line-height: var(--line-height-1-4);
-  letter-spacing: var(--letter-spacing-0-05625);
+  letter-spacing: var(--letter-spacing-0-9);
 }
 ```
 
@@ -58,7 +58,7 @@ const themePlugin = plugin(() => {}, {
           {
             fontWeight: tokens.FontWeight["700"].value,
             lineHeight: tokens.LineHeight["1_4"].value,
-            letterSpacing: tokens.LetterSpacing["0_05625"].value,
+            letterSpacing: tokens.LetterSpacing["0_9"].value,
           },
         ],
       },
@@ -73,5 +73,5 @@ export default themePlugin;
 
 | Figma のバージョン | npm のバージョン |
 | ------------------ | ---------------- |
-| 1.4.1              | 0.1.4            |
+| 1.4.1              | 0.1.5            |
 | 1.4.0              | 0.0.16           |
