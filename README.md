@@ -1,6 +1,7 @@
 # Design Tokens
 
-[デジタル庁 デザインシステム（Figma）](https://www.figma.com/community/file/1255349027535859598)のデザイントークンです。
+[デジタル庁 デザインシステム（Figma）](https://www.figma.com/community/file/1255349027535859598)のデザイントークン。
+
 CSS, JavaScript のいずれかで扱えます。
 
 [![npm version](https://badge.fury.io/js/@digital-go-jp%2Fdesign-tokens.svg)](https://badge.fury.io/js/@digital-go-jp%2Fdesign-tokens)
@@ -69,7 +70,7 @@ const themePlugin = plugin(() => {}, {
 export default themePlugin;
 ```
 
-## Figma（デザインシステム）とのバージョン対応表
+## バージョン対応表
 
 | Figma のバージョン | npm のバージョン |
 | ------------------ | ---------------- |
