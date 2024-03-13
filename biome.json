@@ -27,7 +27,7 @@
       "jsxQuoteStyle": "single",
       "trailingComma": "all",
       "semicolons": "always",
-      "arrowParentheses": "asNeeded",
+      "arrowParentheses": "always",
       "quoteProperties": "asNeeded"
     }
   },
