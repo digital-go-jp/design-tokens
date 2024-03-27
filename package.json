@@ -26,7 +26,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^1.6.3",
-    "@tsconfig/node18": "^18.2.3",
+    "@tsconfig/node18": "^18.2.4",
     "style-dictionary": "^3.9.2",
     "token-transformer": "^0.0.33",
     "tsx": "^4.7.1",
