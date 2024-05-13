@@ -29,7 +29,7 @@
     "@tsconfig/node18": "^18.2.4",
     "style-dictionary": "^3.9.2",
     "token-transformer": "^0.0.33",
-    "tsx": "^4.7.2",
+    "tsx": "^4.10.1",
     "typescript": "^5.4.5"
   },
   "engines": {
