@@ -6,7 +6,7 @@ CSS, JavaScript のいずれかで扱えます。
 
 [![npm version](https://badge.fury.io/js/@digital-go-jp%2Fdesign-tokens.svg)](https://badge.fury.io/js/@digital-go-jp%2Fdesign-tokens)
 
-## パッケージのインストール
+## インストール
 
 ```
 $ npm install @digital-go-jp/design-tokens
