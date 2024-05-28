@@ -2,8 +2,6 @@
 
 [デジタル庁 デザインシステム（Figma）](https://www.figma.com/community/file/1255349027535859598)のデザイントークン。
 
-CSS, JavaScript のいずれかで扱えます。
-
 [![npm version](https://badge.fury.io/js/@digital-go-jp%2Fdesign-tokens.svg)](https://badge.fury.io/js/@digital-go-jp%2Fdesign-tokens)
 
 ## インストール
