@@ -1,11 +1,10 @@
 # Design Tokens
 
-[デジタル庁 デザインシステム（Figma）](https://www.figma.com/community/file/1255349027535859598)のデザイントークンです。
-CSS, JavaScript のいずれかで扱えます。
+[デジタル庁 デザインシステム（Figma）](https://www.figma.com/community/file/1255349027535859598)のデザイントークン。
 
 [![npm version](https://badge.fury.io/js/@digital-go-jp%2Fdesign-tokens.svg)](https://badge.fury.io/js/@digital-go-jp%2Fdesign-tokens)
 
-## パッケージのインストール
+## インストール
 
 ```
 $ npm install @digital-go-jp/design-tokens
@@ -22,7 +21,6 @@ $ npm install @digital-go-jp/design-tokens
   font-size: var(--font-size-45);
   font-weight: var(--font-weight-700);
   line-height: var(--line-height-1-4);
-  letter-spacing: var(--letter-spacing-0-9);
 }
 ```
 
@@ -58,7 +56,6 @@ const themePlugin = plugin(() => {}, {
           {
             fontWeight: tokens.FontWeight["700"].value,
             lineHeight: tokens.LineHeight["1_4"].value,
-            letterSpacing: tokens.LetterSpacing["0_9"].value,
           },
         ],
       },
@@ -69,9 +66,8 @@ const themePlugin = plugin(() => {}, {
 export default themePlugin;
 ```
 
-## Figma（デザインシステム）とのバージョン対応表
+## バージョン対応表
 
 | Figma のバージョン | npm のバージョン |
 | ------------------ | ---------------- |
-| 1.4.1              | 0.1.5            |
-| 1.4.0              | 0.0.16           |
+| 1.4.2              | 0.1.6            |

@@ -4,10 +4,10 @@ import config from './config.json';
 StyleDictionary.registerTransform({
   name: 'px-rem-transformer',
   type: 'value',
-  matcher: token => {
+  matcher: (token) => {
     return token.name.includes('font-size') || token.name.includes('FontSize');
   },
-  transformer: token => {
+  transformer: (token) => {
     const px = Number(token.value.replace('px', ''));
     const rem = `${(1 / 16) * px}rem`;
     if (token.name.includes('font-size') || token.name.includes('FontSize')) {
@@ -20,10 +20,10 @@ StyleDictionary.registerTransform({
 StyleDictionary.registerTransform({
   name: 'shadow-transformer',
   type: 'value',
-  matcher: prop => {
+  matcher: (prop) => {
     return prop.type === 'boxShadow';
   },
-  transformer: token => {
+  transformer: (token) => {
     const v1 = token.value[0];
     const v2 = token.value[1];
 
@@ -49,7 +49,7 @@ StyleDictionary.registerTransformGroup({
 
 StyleDictionary.registerFilter({
   name: 'da/filter-tokens',
-  matcher: token => {
+  matcher: (token) => {
     if (token.name.includes('token-set') || token.name.includes('TokenSet')) {
       return false;
     }
