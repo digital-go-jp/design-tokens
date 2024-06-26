@@ -18,7 +18,7 @@ $ npm install @digital-go-jp/design-tokens
 
 ### JavaScript
 
-[https://github.com/digital-go-jp/tailwind-theme-plugin](tailwind-theme-plugin) を参照してください。
+[tailwind-theme-plugin](https://github.com/digital-go-jp/tailwind-theme-plugin) を参照してください。
 
 ## バージョン対応表
 
