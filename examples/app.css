@@ -1,0 +1,406 @@
+@import url("node_modules/@digital-go-jp/design-tokens/dist/tokens.css");
+
+@layer base;
+
+@layer base {
+  body {
+    font-family:
+      'Noto Sans JP',
+      -apple-system,
+      BlinkMacSystemFont,
+      sans-serif;
+  }
+
+  code {
+    font-family: 'Noto Sans Mono', monospace;
+  }
+
+  li {
+    list-style: none;
+  }
+}
+
+.dsp-64N-4 {
+  font-size: var(--font-size-64);
+  font-weight: var(--font-weight-400);
+  line-height: var(--line-height-1-4);
+}
+
+.dsp-57N-4 {
+  font-size: var(--font-size-57);
+  font-weight: var(--font-weight-400);
+  line-height: var(--line-height-1-4);
+}
+
+.dsp-48N-4 {
+  font-size: var(--font-size-48);
+  font-weight: var(--font-weight-400);
+  line-height: var(--line-height-1-4);
+}
+
+.std-45B-4 {
+  font-size: var(--font-size-45);
+  font-weight: var(--font-weight-700);
+  line-height: var(--line-height-1-4);
+  letter-spacing: 0.02em;
+}
+
+.std-36B-4 {
+  font-size: var(--font-size-36);
+  font-weight: var(--font-weight-700);
+  line-height: var(--line-height-1-4);
+  letter-spacing: 0.02em;
+}
+
+.std-32B-5 {
+  font-size: var(--font-size-32);
+  font-weight: var(--font-weight-700);
+  line-height: var(--line-height-1-5);
+  letter-spacing: 0.02em;
+}
+
+.std-28B-5 {
+  font-size: var(--font-size-28);
+  font-weight: var(--font-weight-700);
+  line-height: var(--line-height-1-5);
+  letter-spacing: 0.02em;
+}
+
+.std-24B-5 {
+  font-size: var(--font-size-24);
+  font-weight: var(--font-weight-700);
+  line-height: var(--line-height-1-5);
+  letter-spacing: 0.02em;
+}
+
+.std-22B-5 {
+  font-size: var(--font-size-22);
+  font-weight: var(--font-weight-700);
+  line-height: var(--line-height-1-5);
+  letter-spacing: 0.02em;
+}
+
+.std-20B-6 {
+  font-size: var(--font-size-20);
+  font-weight: var(--font-weight-700);
+  line-height: var(--line-height-1-6);
+  letter-spacing: 0.02em;
+}
+
+.std-20B-5 {
+  font-size: var(--font-size-20);
+  font-weight: var(--font-weight-700);
+  line-height: var(--line-height-1-5);
+  letter-spacing: 0.02em;
+}
+
+.std-18B-6 {
+  font-size: var(--font-size-18);
+  font-weight: var(--font-weight-700);
+  line-height: var(--line-height-1-6);
+  letter-spacing: 0.02em;
+}
+
+.std-17B-7 {
+  font-size: var(--font-size-17);
+  font-weight: var(--font-weight-700);
+  line-height: var(--line-height-1-7);
+  letter-spacing: 0.02em;
+}
+
+.std-16B-7 {
+  font-size: var(--font-size-16);
+  font-weight: var(--font-weight-700);
+  line-height: var(--line-height-1-7);
+  letter-spacing: 0.02em;
+}
+
+.std-32M-5 {
+  font-size: var(--font-size-32);
+  font-weight: var(--font-weight-500);
+  line-height: var(--line-height-1-5);
+  letter-spacing: 0.02em;
+}
+
+.std-28M-5 {
+  font-size: var(--font-size-28);
+  font-weight: var(--font-weight-500);
+  line-height: var(--line-height-1-5);
+  letter-spacing: 0.02em;
+}
+
+.std-24M-5 {
+  font-size: var(--font-size-24);
+  font-weight: var(--font-weight-500);
+  line-height: var(--line-height-1-5);
+  letter-spacing: 0.02em;
+}
+
+.std-20M-5 {
+  font-size: var(--font-size-20);
+  font-weight: var(--font-weight-500);
+  line-height: var(--line-height-1-5);
+  letter-spacing: 0.02em;
+}
+
+.std-17M-7 {
+  font-size: var(--font-size-17);
+  font-weight: var(--font-weight-500);
+  line-height: var(--line-height-1-7);
+  letter-spacing: 0.02em;
+}
+
+.std-16M-7 {
+  font-size: var(--font-size-16);
+  font-weight: var(--font-weight-500);
+  line-height: var(--line-height-1-7);
+  letter-spacing: 0.02em;
+}
+
+.std-45N-4 {
+  font-size: var(--font-size-45);
+  font-weight: var(--font-weight-400);
+  line-height: var(--line-height-1-4);
+  letter-spacing: 0.02em;
+}
+
+.std-36N-4 {
+  font-size: var(--font-size-36);
+  font-weight: var(--font-weight-400);
+  line-height: var(--line-height-1-4);
+  letter-spacing: 0.02em;
+}
+
+.std-32N-4 {
+  font-size: var(--font-size-32);
+  font-weight: var(--font-weight-400);
+  line-height: var(--line-height-1-5);
+  letter-spacing: 0.02em;
+}
+
+.std-28N-5 {
+  font-size: var(--font-size-28);
+  font-weight: var(--font-weight-400);
+  line-height: var(--line-height-1-5);
+  letter-spacing: 0.02em;
+}
+
+.std-26N-5 {
+  font-size: var(--font-size-26);
+  font-weight: var(--font-weight-400);
+  line-height: var(--line-height-1-5);
+  letter-spacing: 0.02em;
+}
+
+.std-24N-5 {
+  font-size: var(--font-size-24);
+  font-weight: var(--font-weight-400);
+  line-height: var(--line-height-1-5);
+  letter-spacing: 0.02em;
+}
+
+.std-22N-5 {
+  font-size: var(--font-size-22);
+  font-weight: var(--font-weight-400);
+  line-height: var(--line-height-1-5);
+  letter-spacing: 0.02em;
+}
+
+.std-20N-5 {
+  font-size: var(--font-size-20);
+  font-weight: var(--font-weight-400);
+  line-height: var(--line-height-1-5);
+  letter-spacing: 0.02em;
+}
+
+.std-18N-6 {
+  font-size: var(--font-size-18);
+  font-weight: var(--font-weight-400);
+  line-height: var(--line-height-1-6);
+  letter-spacing: 0.02em;
+}
+
+.std-17N-7 {
+  font-size: var(--font-size-17);
+  font-weight: var(--font-weight-400);
+  line-height: var(--line-height-1-7);
+  letter-spacing: 0.02em;
+}
+
+.std-16N-7 {
+  font-size: var(--font-size-16);
+  font-weight: var(--font-weight-400);
+  line-height: var(--line-height-1-7);
+  letter-spacing: 0.02em;
+}
+
+.dns-17B-3 {
+  font-size: var(--font-size-17);
+  font-weight: var(--font-weight-700);
+  line-height: var(--line-height-1-3);
+}
+
+.dns-17B-2 {
+  font-size: var(--font-size-17);
+  font-weight: var(--font-weight-700);
+  line-height: var(--line-height-1-2);
+}
+
+.dns-16B-3 {
+  font-size: var(--font-size-16);
+  font-weight: var(--font-weight-700);
+  line-height: var(--line-height-1-3);
+}
+
+.dns-16B-2 {
+  font-size: var(--font-size-16);
+  font-weight: var(--font-weight-700);
+  line-height: var(--line-height-1-2);
+}
+
+.dns-14B-3 {
+  font-size: var(--font-size-14);
+  font-weight: var(--font-weight-700);
+  line-height: var(--line-height-1-3);
+}
+
+.dns-14B-2 {
+  font-size: var(--font-size-14);
+  font-weight: var(--font-weight-700);
+  line-height: var(--line-height-1-2);
+}
+
+.dns-17N-3 {
+  font-size: var(--font-size-17);
+  font-weight: var(--font-weight-400);
+  line-height: var(--line-height-1-3);
+}
+
+.dns-17N-2 {
+  font-size: var(--font-size-17);
+  font-weight: var(--font-weight-400);
+  line-height: var(--line-height-1-2);
+}
+
+.dns-16N-3 {
+  font-size: var(--font-size-16);
+  font-weight: var(--font-weight-400);
+  line-height: var(--line-height-1-3);
+}
+
+.dns-16N-2 {
+  font-size: var(--font-size-16);
+  font-weight: var(--font-weight-400);
+  line-height: var(--line-height-1-2);
+}
+
+.dns-14N-3 {
+  font-size: var(--font-size-14);
+  font-weight: var(--font-weight-400);
+  line-height: var(--line-height-1-3);
+}
+
+.dns-14N-2 {
+  font-size: var(--font-size-14);
+  font-weight: var(--font-weight-400);
+  line-height: var(--line-height-1-2);
+}
+
+.oln-17B-1 {
+  font-size: var(--font-size-17);
+  font-weight: var(--font-weight-700);
+  line-height: var(--line-height-1-0);
+  letter-spacing: 0.02em;
+}
+
+.oln-16B-1 {
+  font-size: var(--font-size-16);
+  font-weight: var(--font-weight-700);
+  line-height: var(--line-height-1-0);
+  letter-spacing: 0.02em;
+}
+
+.oln-14B-1 {
+  font-size: var(--font-size-14);
+  font-weight: var(--font-weight-700);
+  line-height: var(--line-height-1-0);
+  letter-spacing: 0.02em;
+}
+
+.oln-17M-1 {
+  font-size: var(--font-size-17);
+  font-weight: var(--font-weight-500);
+  line-height: var(--line-height-1-0);
+  letter-spacing: 0.02em;
+}
+
+.oln-16M-1 {
+  font-size: var(--font-size-16);
+  font-weight: var(--font-weight-500);
+  line-height: var(--line-height-1-0);
+  letter-spacing: 0.02em;
+}
+
+.oln-14M-1 {
+  font-size: var(--font-size-14);
+  font-weight: var(--font-weight-500);
+  line-height: var(--line-height-1-0);
+  letter-spacing: 0.02em;
+}
+
+.oln-17N-1 {
+  font-size: var(--font-size-17);
+  font-weight: var(--font-weight-400);
+  line-height: var(--line-height-1-0);
+  letter-spacing: 0.02em;
+}
+
+.oln-16N-1 {
+  font-size: var(--font-size-16);
+  font-weight: var(--font-weight-400);
+  line-height: var(--line-height-1-0);
+  letter-spacing: 0.02em;
+}
+
+.oln-14N-1 {
+  font-size: var(--font-size-14);
+  font-weight: var(--font-weight-400);
+  line-height: var(--line-height-1-0);
+  letter-spacing: 0.02em;
+}
+
+.mono-17B-5 {
+  font-size: var(--font-size-17);
+  font-weight: var(--font-weight-700);
+  line-height: var(--line-height-1-5);
+}
+
+.mono-16B-5 {
+  font-size: var(--font-size-16);
+  font-weight: var(--font-weight-700);
+  line-height: var(--line-height-1-5);
+}
+
+.mono-14B-5 {
+  font-size: var(--font-size-14);
+  font-weight: var(--font-weight-700);
+  line-height: var(--line-height-1-5);
+}
+
+.mono-17N-5 {
+  font-size: var(--font-size-17);
+  font-weight: var(--font-weight-400);
+  line-height: var(--line-height-1-5);
+}
+
+.mono-16N-5 {
+  font-size: var(--font-size-16);
+  font-weight: var(--font-weight-400);
+  line-height: var(--line-height-1-5);
+}
+
+.mono-14N-5 {
+  font-size: var(--font-size-14);
+  font-weight: var(--font-weight-400);
+  line-height: var(--line-height-1-5);
+}
