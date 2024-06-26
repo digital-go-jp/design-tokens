@@ -4,19 +4,11 @@
 
 @layer base {
   body {
-    font-family:
-      'Noto Sans JP',
-      -apple-system,
-      BlinkMacSystemFont,
-      sans-serif;
+    font-family: "Noto Sans JP", -apple-system, BlinkMacSystemFont, sans-serif;
   }
 
   code {
-    font-family: 'Noto Sans Mono', monospace;
-  }
-
-  li {
-    list-style: none;
+    font-family: "Noto Sans Mono", monospace;
   }
 }
 
