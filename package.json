@@ -30,7 +30,7 @@
     "style-dictionary": "^3.9.2",
     "token-transformer": "^0.0.33",
     "tsx": "^4.15.7",
-    "typescript": "^5.5.2"
+    "typescript": "^5.5.3"
   },
   "engines": {
     "node": ">=18"
