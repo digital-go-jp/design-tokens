@@ -27,7 +27,7 @@
   "devDependencies": {
     "@biomejs/biome": "^1.8.3",
     "@tsconfig/node20": "^20.1.4",
-    "style-dictionary": "^3.9.2",
+    "style-dictionary": "^4.0.1",
     "token-transformer": "^0.0.33",
     "tsx": "^4.16.2",
     "typescript": "^5.5.3"
