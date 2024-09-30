@@ -37,6 +37,6 @@ $ npm install @digital-go-jp/design-tokens
 
 ### 参考
 
-- [https://www.figma.com/community/plugin/843461159747178978/tokens-studio-for-figma](Tokens Studio for Figma)
+- [Tokens Studio for Figma](https://www.figma.com/community/plugin/843461159747178978/tokens-studio-for-figma)
   - [Tokens Studio for Figma の GitHub 連携](https://docs.tokens.studio/token-storage-and-sync/sync-provider-github)
 - [Style Dictionary](https://amzn.github.io/style-dictionary/#/)
