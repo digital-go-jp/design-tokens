@@ -57,6 +57,13 @@
   letter-spacing: 0.01em;
 }
 
+.std-26B-150 {
+  font-size: var(--font-size-26);
+  font-weight: var(--font-weight-700);
+  line-height: var(--line-height-1-5);
+  letter-spacing: 0.02em;
+}
+
 .std-24B-150 {
   font-size: var(--font-size-24);
   font-weight: var(--font-weight-700);
