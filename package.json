@@ -25,12 +25,12 @@
     "build": "tsx style-dictionary/transform.ts"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.9.2",
+    "@biomejs/biome": "^1.9.4",
     "@tsconfig/node20": "^20.1.4",
     "style-dictionary": "^3.9.2",
     "token-transformer": "^0.0.33",
     "tsx": "^4.19.1",
-    "typescript": "^5.6.2"
+    "typescript": "^5.6.3"
   },
   "engines": {
     "node": ">=18"
