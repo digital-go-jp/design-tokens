@@ -2,13 +2,15 @@
   "source": ["style-dictionary/tokens.json"],
   "platforms": {
     "css": {
-      "transformGroup": "da/css",
+      "preprocessors": ["tokens-studio"],
+      "transformGroup": "tokens-studio",
+      "transforms": ["size/pxToRem", "shadow/css/shorthand", "name/kebab"],
       "buildPath": "dist/",
       "files": [
         {
           "destination": "tokens.css",
           "format": "css/variables",
-          "filter": "da/filter-tokens",
+          "filter": "tokens-filter",
           "options": {
             "outputReferences": true
           }
@@ -16,13 +18,15 @@
       ]
     },
     "ts": {
-      "transformGroup": "da/ts",
+      "preprocessors": ["tokens-studio"],
+      "transformGroup": "tokens-studio",
+      "transforms": ["size/pxToRem", "shadow/css/shorthand", "name/pascal"],
       "buildPath": "dist/",
       "files": [
         {
           "format": "javascript/module",
           "destination": "tokens.js",
-          "filter": "da/filter-tokens",
+          "filter": "tokens-filter",
           "options": {
             "outputReferences": true
           }
@@ -30,7 +34,7 @@
         {
           "format": "typescript/module-declarations",
           "destination": "tokens.d.ts",
-          "filter": "da/filter-tokens",
+          "filter": "tokens-filter",
           "options": {
             "outputReferences": true
           }
