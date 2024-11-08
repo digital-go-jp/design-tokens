@@ -26,7 +26,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
-    "@tokens-studio/sd-transforms": "^1.2.7",
+    "@tokens-studio/sd-transforms": "^1.2.8",
     "@tsconfig/node20": "^20.1.4",
     "style-dictionary": "^4.1.4",
     "token-transformer": "^0.0.33",
