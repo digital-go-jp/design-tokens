@@ -86,14 +86,13 @@ const transformTokens = (tokens: TokensObject): TokensObject => {
 
 const main = (): void => {
   try {
-    const inputPath = path.resolve(__dirname, 'style-dictionary/tokens.json');
-    const outputPath = path.resolve(__dirname, 'style-dictionary/tokens.transformed.json');
+    const tokenPath = path.resolve(__dirname, 'style-dictionary/tokens.json');
 
-    const tokens = JSON.parse(fs.readFileSync(inputPath, 'utf8'));
+    const tokens = JSON.parse(fs.readFileSync(tokenPath, 'utf8'));
     const transformedTokens = transformTokens(tokens);
 
-    fs.writeFileSync(outputPath, JSON.stringify(transformedTokens, null, 2));
-    console.log('Tokens successfully transformed and saved to', outputPath);
+    fs.writeFileSync(tokenPath, JSON.stringify(transformedTokens, null, 2));
+    console.log('Tokens successfully transformed and saved');
   } catch (error) {
     console.error('Error processing tokens:', error instanceof Error ? error.message : error);
     process.exit(1);
