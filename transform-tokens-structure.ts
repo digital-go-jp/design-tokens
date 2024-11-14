@@ -40,13 +40,14 @@ const updateColorReferences = (value: string): string => {
 };
 
 const transformTokenValue = (token: TokenValue): TokenValue => {
-  if (token.type === 'color' && typeof token.value === 'string' && token.value.includes('{')) {
-    return {
-      ...token,
-      value: updateColorReferences(token.value),
-    };
-  }
-  return token;
+  if (!token.type || token.type !== 'color') return token;
+  if (typeof token.value !== 'string') return token;
+  if (!token.value.includes('{')) return token;
+
+  return {
+    ...token,
+    value: updateColorReferences(token.value),
+  };
 };
 
 const processTokens = (obj: TokensObject): TokensObject => {
