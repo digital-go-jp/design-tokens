@@ -1,10 +1,10 @@
 {
-  "source": ["style-dictionary/tokens.json"],
+  "source": ["style-dictionary/tokens.transformed.json"],
   "platforms": {
     "css": {
       "preprocessors": ["tokens-studio"],
       "transformGroup": "tokens-studio",
-      "transforms": ["size/pxToRem", "shadow/css/shorthand", "name/kebab", "da/css/transform-color-name"],
+      "transforms": ["size/pxToRem", "shadow/css/shorthand", "name/kebab"],
       "buildPath": "dist/",
       "files": [
         {

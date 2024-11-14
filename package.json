@@ -22,6 +22,7 @@
     "lint": "biome lint **/*.ts **/*.js",
     "type:check": "tsc --noEmit",
     "transform-figma-tokens": "token-transformer figma/tokens.json style-dictionary/tokens.json --resolveReferences false",
+    "transform-structure": "tsx transform-tokens-structure.ts",
     "build": "tsx style-dictionary/transform.ts"
   },
   "devDependencies": {
