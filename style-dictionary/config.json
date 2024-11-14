@@ -4,7 +4,7 @@
     "css": {
       "preprocessors": ["tokens-studio"],
       "transformGroup": "tokens-studio",
-      "transforms": ["size/pxToRem", "shadow/css/shorthand", "name/kebab"],
+      "transforms": ["size/pxToRem", "shadow/css/shorthand", "name/kebab", "da/css/transform-color-name"],
       "buildPath": "dist/",
       "files": [
         {

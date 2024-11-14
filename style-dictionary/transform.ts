@@ -3,6 +3,22 @@ import StyleDictionary from 'style-dictionary';
 
 register(StyleDictionary);
 
+StyleDictionary.registerTransform({
+  name: 'da/css/transform-color-name',
+  type: 'name',
+  transform: (token) => {
+    if (token.type === 'color') {
+      const name = token.name
+        .split('-')
+        .filter((part) => part.toLowerCase() !== 'semantic')
+        .join('-');
+      return `color-${name}`;
+    }
+
+    return token.name;
+  },
+});
+
 StyleDictionary.registerFilter({
   name: 'tokens-filter',
   filter: (token) => {
