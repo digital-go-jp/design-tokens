@@ -1,354 +1,356 @@
-@import url("node_modules/@digital-go-jp/design-tokens/dist/tokens.css");
+/* NOTE: 実際に使用する際は以下のように design-tokens パッケージ内のファイルを import してください */
+/* @import url("node_modules/@digital-go-jp/design-tokens/dist/tokens.css"); */
+@import url("../dist/tokens.css");
 
 @layer base;
 
 @layer base {
   body {
-    font-family: "Noto Sans JP", -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: var(--font-family-sans);
   }
 
   code {
-    font-family: "Noto Sans Mono", monospace;
+    font-family: var(--font-family-mono);
   }
 }
 
 .dsp-64N-140 {
   font-size: var(--font-size-64);
   font-weight: var(--font-weight-400);
-  line-height: var(--line-height-1-4);
+  line-height: var(--line-height-140);
 }
 
 .dsp-57N-140 {
   font-size: var(--font-size-57);
   font-weight: var(--font-weight-400);
-  line-height: var(--line-height-1-4);
+  line-height: var(--line-height-140);
 }
 
 .dsp-48N-140 {
   font-size: var(--font-size-48);
   font-weight: var(--font-weight-400);
-  line-height: var(--line-height-1-4);
+  line-height: var(--line-height-140);
 }
 
 .std-45B-140 {
   font-size: var(--font-size-45);
   font-weight: var(--font-weight-700);
-  line-height: var(--line-height-1-4);
+  line-height: var(--line-height-140);
 }
 
 .std-36B-140 {
   font-size: var(--font-size-36);
   font-weight: var(--font-weight-700);
-  line-height: var(--line-height-1-4);
+  line-height: var(--line-height-140);
   letter-spacing: 0.01em;
 }
 
 .std-32B-150 {
   font-size: var(--font-size-32);
   font-weight: var(--font-weight-700);
-  line-height: var(--line-height-1-5);
+  line-height: var(--line-height-150);
   letter-spacing: 0.01em;
 }
 
 .std-28B-150 {
   font-size: var(--font-size-28);
   font-weight: var(--font-weight-700);
-  line-height: var(--line-height-1-5);
+  line-height: var(--line-height-150);
   letter-spacing: 0.01em;
 }
 
 .std-26B-150 {
   font-size: var(--font-size-26);
   font-weight: var(--font-weight-700);
-  line-height: var(--line-height-1-5);
+  line-height: var(--line-height-150);
   letter-spacing: 0.02em;
 }
 
 .std-24B-150 {
   font-size: var(--font-size-24);
   font-weight: var(--font-weight-700);
-  line-height: var(--line-height-1-5);
+  line-height: var(--line-height-150);
   letter-spacing: 0.02em;
 }
 
 .std-22B-150 {
   font-size: var(--font-size-22);
   font-weight: var(--font-weight-700);
-  line-height: var(--line-height-1-5);
+  line-height: var(--line-height-150);
   letter-spacing: 0.02em;
 }
 
 .std-20B-160 {
   font-size: var(--font-size-20);
   font-weight: var(--font-weight-700);
-  line-height: var(--line-height-1-6);
+  line-height: var(--line-height-160);
   letter-spacing: 0.02em;
 }
 
 .std-20B-150 {
   font-size: var(--font-size-20);
   font-weight: var(--font-weight-700);
-  line-height: var(--line-height-1-5);
+  line-height: var(--line-height-150);
   letter-spacing: 0.02em;
 }
 
 .std-18B-160 {
   font-size: var(--font-size-18);
   font-weight: var(--font-weight-700);
-  line-height: var(--line-height-1-6);
+  line-height: var(--line-height-160);
   letter-spacing: 0.02em;
 }
 
 .std-17B-170 {
   font-size: var(--font-size-17);
   font-weight: var(--font-weight-700);
-  line-height: var(--line-height-1-7);
+  line-height: var(--line-height-170);
   letter-spacing: 0.02em;
 }
 
 .std-16B-170 {
   font-size: var(--font-size-16);
   font-weight: var(--font-weight-700);
-  line-height: var(--line-height-1-7);
+  line-height: var(--line-height-170);
   letter-spacing: 0.02em;
 }
 
 .std-16B-175 {
   font-size: var(--font-size-16);
   font-weight: var(--font-weight-700);
-  line-height: var(--line-height-1-75);
+  line-height: var(--line-height-175);
   letter-spacing: 0.02em;
 }
 
 .std-45N-140 {
   font-size: var(--font-size-45);
   font-weight: var(--font-weight-400);
-  line-height: var(--line-height-1-4);
+  line-height: var(--line-height-140);
 }
 
 .std-36N-140 {
   font-size: var(--font-size-36);
   font-weight: var(--font-weight-400);
-  line-height: var(--line-height-1-4);
+  line-height: var(--line-height-140);
   letter-spacing: 0.01em;
 }
 
 .std-32N-150 {
   font-size: var(--font-size-32);
   font-weight: var(--font-weight-400);
-  line-height: var(--line-height-1-5);
+  line-height: var(--line-height-150);
   letter-spacing: 0.01em;
 }
 
 .std-28N-150 {
   font-size: var(--font-size-28);
   font-weight: var(--font-weight-400);
-  line-height: var(--line-height-1-5);
+  line-height: var(--line-height-150);
   letter-spacing: 0.01em;
 }
 
 .std-26N-150 {
   font-size: var(--font-size-26);
   font-weight: var(--font-weight-400);
-  line-height: var(--line-height-1-5);
+  line-height: var(--line-height-150);
   letter-spacing: 0.02em;
 }
 
 .std-24N-150 {
   font-size: var(--font-size-24);
   font-weight: var(--font-weight-400);
-  line-height: var(--line-height-1-5);
+  line-height: var(--line-height-150);
   letter-spacing: 0.02em;
 }
 
 .std-22N-150 {
   font-size: var(--font-size-22);
   font-weight: var(--font-weight-400);
-  line-height: var(--line-height-1-5);
+  line-height: var(--line-height-150);
   letter-spacing: 0.02em;
 }
 
 .std-20N-150 {
   font-size: var(--font-size-20);
   font-weight: var(--font-weight-400);
-  line-height: var(--line-height-1-5);
+  line-height: var(--line-height-150);
   letter-spacing: 0.02em;
 }
 
 .std-18N-160 {
   font-size: var(--font-size-18);
   font-weight: var(--font-weight-400);
-  line-height: var(--line-height-1-6);
+  line-height: var(--line-height-160);
   letter-spacing: 0.02em;
 }
 
 .std-17N-170 {
   font-size: var(--font-size-17);
   font-weight: var(--font-weight-400);
-  line-height: var(--line-height-1-7);
+  line-height: var(--line-height-170);
   letter-spacing: 0.02em;
 }
 
 .std-16N-170 {
   font-size: var(--font-size-16);
   font-weight: var(--font-weight-400);
-  line-height: var(--line-height-1-7);
+  line-height: var(--line-height-170);
   letter-spacing: 0.02em;
 }
 
 .std-16N-175 {
   font-size: var(--font-size-16);
   font-weight: var(--font-weight-400);
-  line-height: var(--line-height-1-75);
+  line-height: var(--line-height-175);
   letter-spacing: 0.02em;
 }
 
 .dns-17B-130 {
   font-size: var(--font-size-17);
   font-weight: var(--font-weight-700);
-  line-height: var(--line-height-1-3);
+  line-height: var(--line-height-130);
 }
 
 .dns-17B-120 {
   font-size: var(--font-size-17);
   font-weight: var(--font-weight-700);
-  line-height: var(--line-height-1-2);
+  line-height: var(--line-height-120);
 }
 
 .dns-16B-130 {
   font-size: var(--font-size-16);
   font-weight: var(--font-weight-700);
-  line-height: var(--line-height-1-3);
+  line-height: var(--line-height-130);
 }
 
 .dns-16B-120 {
   font-size: var(--font-size-16);
   font-weight: var(--font-weight-700);
-  line-height: var(--line-height-1-2);
+  line-height: var(--line-height-120);
 }
 
 .dns-14B-130 {
   font-size: var(--font-size-14);
   font-weight: var(--font-weight-700);
-  line-height: var(--line-height-1-3);
+  line-height: var(--line-height-130);
 }
 
 .dns-14B-120 {
   font-size: var(--font-size-14);
   font-weight: var(--font-weight-700);
-  line-height: var(--line-height-1-2);
+  line-height: var(--line-height-120);
 }
 
 .dns-17N-130 {
   font-size: var(--font-size-17);
   font-weight: var(--font-weight-400);
-  line-height: var(--line-height-1-3);
+  line-height: var(--line-height-130);
 }
 
 .dns-17N-120 {
   font-size: var(--font-size-17);
   font-weight: var(--font-weight-400);
-  line-height: var(--line-height-1-2);
+  line-height: var(--line-height-120);
 }
 
 .dns-16N-130 {
   font-size: var(--font-size-16);
   font-weight: var(--font-weight-400);
-  line-height: var(--line-height-1-3);
+  line-height: var(--line-height-130);
 }
 
 .dns-16N-120 {
   font-size: var(--font-size-16);
   font-weight: var(--font-weight-400);
-  line-height: var(--line-height-1-2);
+  line-height: var(--line-height-120);
 }
 
 .dns-14N-130 {
   font-size: var(--font-size-14);
   font-weight: var(--font-weight-400);
-  line-height: var(--line-height-1-3);
+  line-height: var(--line-height-130);
 }
 
 .dns-14N-120 {
   font-size: var(--font-size-14);
   font-weight: var(--font-weight-400);
-  line-height: var(--line-height-1-2);
+  line-height: var(--line-height-120);
 }
 
 .oln-17B-100 {
   font-size: var(--font-size-17);
   font-weight: var(--font-weight-700);
-  line-height: var(--line-height-1-0);
+  line-height: var(--line-height-100);
   letter-spacing: 0.02em;
 }
 
 .oln-16B-100 {
   font-size: var(--font-size-16);
   font-weight: var(--font-weight-700);
-  line-height: var(--line-height-1-0);
+  line-height: var(--line-height-100);
   letter-spacing: 0.02em;
 }
 
 .oln-14B-100 {
   font-size: var(--font-size-14);
   font-weight: var(--font-weight-700);
-  line-height: var(--line-height-1-0);
+  line-height: var(--line-height-100);
   letter-spacing: 0.02em;
 }
 
 .oln-17N-100 {
   font-size: var(--font-size-17);
   font-weight: var(--font-weight-400);
-  line-height: var(--line-height-1-0);
+  line-height: var(--line-height-100);
   letter-spacing: 0.02em;
 }
 
 .oln-16N-100 {
   font-size: var(--font-size-16);
   font-weight: var(--font-weight-400);
-  line-height: var(--line-height-1-0);
+  line-height: var(--line-height-100);
   letter-spacing: 0.02em;
 }
 
 .oln-14N-100 {
   font-size: var(--font-size-14);
   font-weight: var(--font-weight-400);
-  line-height: var(--line-height-1-0);
+  line-height: var(--line-height-100);
   letter-spacing: 0.02em;
 }
 
 .mono-17B-150 {
   font-size: var(--font-size-17);
   font-weight: var(--font-weight-700);
-  line-height: var(--line-height-1-5);
+  line-height: var(--line-height-150);
 }
 
 .mono-16B-150 {
   font-size: var(--font-size-16);
   font-weight: var(--font-weight-700);
-  line-height: var(--line-height-1-5);
+  line-height: var(--line-height-150);
 }
 
 .mono-14B-150 {
   font-size: var(--font-size-14);
   font-weight: var(--font-weight-700);
-  line-height: var(--line-height-1-5);
+  line-height: var(--line-height-150);
 }
 
 .mono-17N-150 {
   font-size: var(--font-size-17);
   font-weight: var(--font-weight-400);
-  line-height: var(--line-height-1-5);
+  line-height: var(--line-height-150);
 }
 
 .mono-16N-150 {
   font-size: var(--font-size-16);
   font-weight: var(--font-weight-400);
-  line-height: var(--line-height-1-5);
+  line-height: var(--line-height-150);
 }
 
 .mono-14N-150 {
   font-size: var(--font-size-14);
   font-weight: var(--font-weight-400);
-  line-height: var(--line-height-1-5);
+  line-height: var(--line-height-150);
 }
