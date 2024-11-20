@@ -1,6 +1,6 @@
-/* NOTE: 実際に使用する際は以下のように design-tokens パッケージ内のファイルを import してください */
+/* NOTE: 実際に使用する際は @digital-go-jp/design-tokens パッケージの以下のファイルを import してください */
 /* @import url("node_modules/@digital-go-jp/design-tokens/dist/tokens.css"); */
-@import url("../dist/tokens.css");
+@import url("./tokens.css");
 
 @layer base;
 

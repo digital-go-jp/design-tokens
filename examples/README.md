@@ -1,11 +1,5 @@
 # Examples
 
-## Setup
-
-```
-$ sh setup.sh
-```
-
 ## Run
 
 ```
