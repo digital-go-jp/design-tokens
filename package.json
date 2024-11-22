@@ -1,6 +1,6 @@
 {
   "name": "@digital-go-jp/design-tokens",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "homepage": "https://github.com/digital-go-jp/design-tokens#readme",
   "style": "dist/tokens.css",
   "main": "dist/tokens.js",
@@ -21,12 +21,12 @@
     "format": "biome format --write **/*.ts **/*.js **/*.json",
     "lint": "biome lint **/*.ts **/*.js",
     "type:check": "tsc --noEmit",
-    "transform-figma-tokens": "token-transformer figma/tokens.json style-dictionary/tokens.json --resolveReferences false",
+    "transform-figma-tokens": "token-transformer figma/tokens.json style-dictionary/tokens.json --resolveReferences false && tsx transform-tokens-structure.ts",
     "build": "tsx style-dictionary/transform.ts"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
-    "@tokens-studio/sd-transforms": "^1.2.7",
+    "@tokens-studio/sd-transforms": "^1.2.8",
     "@tsconfig/node20": "^20.1.4",
     "style-dictionary": "^4.1.4",
     "token-transformer": "^0.0.33",
