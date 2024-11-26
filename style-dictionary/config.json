@@ -1,5 +1,5 @@
 {
-  "source": ["style-dictionary/tokens.json"],
+  "source": ["figma/tokens.json"],
   "platforms": {
     "css": {
       "preprocessors": ["tokens-studio"],
