@@ -6,7 +6,7 @@
     "useIgnoreFile": true
   },
   "files": {
-    "ignore": ["dist", "style-dictionary/tokens.json", "figma/tokens.json"]
+    "ignore": ["dist", "figma/tokens.json"]
   },
   "organizeImports": {
     "enabled": true
