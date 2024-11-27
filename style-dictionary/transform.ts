@@ -1,7 +1,9 @@
 import { register } from '@tokens-studio/sd-transforms';
 import StyleDictionary from 'style-dictionary';
 
-register(StyleDictionary);
+register(StyleDictionary, {
+  excludeParentKeys: true,
+});
 
 StyleDictionary.registerFilter({
   name: 'tokens-filter',

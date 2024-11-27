@@ -33,8 +33,7 @@ $ npm install @digital-go-jp/design-tokens
 
 1. Tokens Studio for Figma でデザイントークンを管理し、GitHub リポジトリと連携をします。
 2. Figma 上でデザイントークンに更新があったら、連携先リポジトリの特定のブランチにプッシュをします。
-3. プッシュ をトリガーに GitHub Actions（`.github/workflows/transform-figma-tokens.yml`）が実行されます。この Actions では`token-transformer`を実行し、Token Studio for Figma から出力された json ファイルを Style Dictionary でビルド可能な json 形式に変換します。
-4. GitHub の Release をトリガーに GitHub Actions（`.github/workflows/publish.yml`）が実行されます。この Actions では Style Dictionary を実行し、デザイントークン（json）を CSS および JavaScript で扱えるようにビルドし npm パッケージとしてリリースをします。
+3. GitHub の Release をトリガーに GitHub Actions（`.github/workflows/publish.yml`）が実行されます。この Actions では Style Dictionary を実行し、デザイントークン（json）を CSS および JavaScript で扱えるようにビルドし npm パッケージとしてリリースをします。
 
 ### 参考
 
