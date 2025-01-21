@@ -1,6 +1,6 @@
 {
   "name": "@digital-go-jp/design-tokens",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://github.com/digital-go-jp/design-tokens#readme",
   "style": "dist/tokens.css",
   "main": "dist/tokens.js",
@@ -25,11 +25,11 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
-    "@tokens-studio/sd-transforms": "^1.2.8",
+    "@tokens-studio/sd-transforms": "^1.2.9",
     "@tsconfig/node20": "^20.1.4",
-    "style-dictionary": "^4.1.4",
+    "style-dictionary": "^4.3.1",
     "tsx": "^4.19.2",
-    "typescript": "^5.7.2"
+    "typescript": "^5.7.3"
   },
   "engines": {
     "node": ">=18"
