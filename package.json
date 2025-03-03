@@ -29,7 +29,7 @@
     "@tsconfig/node20": "^20.1.4",
     "style-dictionary": "^4.3.3",
     "tsx": "^4.19.3",
-    "typescript": "^5.7.3"
+    "typescript": "^5.8.2"
   },
   "engines": {
     "node": ">=18"
