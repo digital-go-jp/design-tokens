@@ -24,10 +24,12 @@ $ npm install @digital-go-jp/design-tokens
 
 | Figma のバージョン | パッケージのバージョン |
 | ------------------ | ---------------------- |
-| 2.1.2              | 1.0.3                  |
-| 2.1.1              | 1.0.3                  |
-| 2.1.0              | 1.0.3                  |
-| 2.0.4              | 1.0.3                  |
+| 2.3.0              | 1.0.4                  |
+| 2.2.0              | 1.0.4                  |
+| 2.1.2              | 1.0.4                  |
+| 2.1.1              | 1.0.4                  |
+| 2.1.0              | 1.0.4                  |
+| 2.0.4              | 1.0.4                  |
 | 2.0.3              | 1.0.0                  |
 | 2.0.2              | 0.1.7                  |
 | 2.0.1              | 0.1.6                  |
@@ -44,3 +46,9 @@ $ npm install @digital-go-jp/design-tokens
 - [Tokens Studio for Figma](https://www.figma.com/community/plugin/843461159747178978/tokens-studio-for-figma)
   - [Tokens Studio for Figma の GitHub 連携](https://docs.tokens.studio/token-storage-and-sync/sync-provider-github)
 - [Style Dictionary](https://amzn.github.io/style-dictionary/#/)
+
+## 求人情報
+
+デジタル庁デザインシステムのチームメンバーを募集しています。行政のデジタル環境を支える基盤づくりに、あなたのスキルや経験を活かしてみませんか？　求人ページからご応募ください。
+
+- [プロダクトデザイナー（デザインシステム） - デジタル庁](https://herp.careers/v1/digitalsaiyo/IjQ4ovK9BFPl)
