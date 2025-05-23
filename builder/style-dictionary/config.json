@@ -1,11 +1,11 @@
 {
-  "source": ["figma/tokens.json"],
+  "source": ["../figma/tokens.json"],
   "platforms": {
     "css": {
       "preprocessors": ["tokens-studio"],
       "transformGroup": "tokens-studio",
       "transforms": ["size/pxToRem", "shadow/css/shorthand", "name/kebab"],
-      "buildPath": "dist/",
+      "buildPath": "../dist/",
       "files": [
         {
           "destination": "tokens.css",
@@ -29,7 +29,7 @@
       "preprocessors": ["tokens-studio"],
       "transformGroup": "tokens-studio",
       "transforms": ["size/pxToRem", "shadow/css/shorthand", "name/pascal"],
-      "buildPath": "dist/",
+      "buildPath": "../dist/",
       "files": [
         {
           "format": "javascript/module",
