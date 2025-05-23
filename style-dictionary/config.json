@@ -14,6 +14,14 @@
           "options": {
             "outputReferences": true
           }
+        },
+        {
+          "destination": "tokens-simple.css",
+          "format": "css/variables",
+          "filter": "tokens-simple-filter",
+          "options": {
+            "outputReferences": true
+          }
         }
       ]
     },

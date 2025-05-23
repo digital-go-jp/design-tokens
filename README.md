@@ -14,7 +14,9 @@ $ npm install @digital-go-jp/design-tokens
 
 ### CSS
 
-[examples](./examples/) ディレクトリを参照してください。
+CSS 向けには `tokens.css` および `tokens-simple.css` を提供しています。`tokens.css` は全てのデザイントークンを含みます。`tokens-simple.css` はデザイントークンのサブセットで、色、フォントおよびエレベーションのみを含みます。
+
+`tokens.css` の使用例として [examples](./examples/) ディレクトリを参照してください。
 
 ### JavaScript
 
