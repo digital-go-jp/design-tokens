@@ -11,7 +11,7 @@
     "@tokens-studio/sd-transforms": "^1.3.0",
     "@tsconfig/node20": "^20.1.5",
     "style-dictionary": "^4.4.0",
-    "tsx": "^4.19.3",
+    "tsx": "^4.20.3",
     "typescript": "^5.8.3"
   },
   "engines": {
