@@ -12,7 +12,7 @@
     "@tsconfig/node20": "^20.1.5",
     "style-dictionary": "^4.4.0",
     "tsx": "^4.19.3",
-    "typescript": "^5.8.3"
+    "typescript": "^5.9.2"
   },
   "engines": {
     "node": ">=20"
