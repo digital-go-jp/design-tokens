@@ -12,7 +12,7 @@
     "@tsconfig/node22": "^22.0.2",
     "style-dictionary": "^5.0.1",
     "tsx": "^4.20.3",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.3"
   },
   "engines": {
     "node": ">=22"
