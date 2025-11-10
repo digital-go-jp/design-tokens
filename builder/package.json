@@ -15,7 +15,7 @@
     "typescript": "^5.9.3"
   },
   "overrides": {
-    "expr-eval-fork": ">=3.0.0"
+    "expr-eval-fork": "^3.0.0"
   },
   "engines": {
     "node": ">=22"
