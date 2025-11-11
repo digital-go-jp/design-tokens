@@ -8,4 +8,4 @@ updates:
   - package-ecosystem: "npm"
     directory: "/builder/" # Location of package manifests
     schedule:
-      interval: "daily"
+      interval: "monthly"
