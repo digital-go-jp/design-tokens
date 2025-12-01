@@ -11,7 +11,7 @@
     "@tokens-studio/sd-transforms": "^2.0.1",
     "@tsconfig/node22": "^22.0.2",
     "style-dictionary": "^5.1.1",
-    "tsx": "^4.20.6",
+    "tsx": "^4.21.0",
     "typescript": "^5.9.3"
   },
   "overrides": {
