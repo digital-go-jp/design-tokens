@@ -8,7 +8,7 @@
     "build": "tsx style-dictionary/transform.ts"
   },
   "devDependencies": {
-    "@tokens-studio/sd-transforms": "^2.0.1",
+    "@tokens-studio/sd-transforms": "^2.0.2",
     "@tsconfig/node22": "^22.0.2",
     "style-dictionary": "^5.1.1",
     "tsx": "^4.20.6",
