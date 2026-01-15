@@ -1,5 +1,6 @@
 name: Publish package to npmjs
 permissions:
+  id-token: write
   contents: read
 on:
   release:
@@ -17,6 +18,4 @@ jobs:
         working-directory: ./builder
       - run: npm run build
         working-directory: ./builder
-      - run: npm publish --access=public
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - run: npm publish
