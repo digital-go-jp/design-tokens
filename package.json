@@ -1,6 +1,6 @@
 {
   "name": "@digital-go-jp/design-tokens",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "homepage": "https://github.com/digital-go-jp/design-tokens#readme",
   "style": "dist/tokens.css",
   "main": "dist/tokens.js",
@@ -10,11 +10,31 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/digital-go-jp/design-tokens.git"
+    "url": "git+https://github.com/digital-go-jp/design-tokens.git"
   },
   "bugs": {
     "url": "https://github.com/digital-go-jp/design-tokens/issues"
   },
   "author": "Digital Agency",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "format": "npx biome format --write **/*.ts **/*.js **/*.json",
+    "lint": "npx biome lint **/*.ts **/*.js",
+    "type:check": "tsc --noEmit",
+    "build": "tsx style-dictionary/transform.ts"
+  },
+  "devDependencies": {
+    "@tokens-studio/sd-transforms": "^2.0.3",
+    "@tsconfig/node22": "^22.0.5",
+    "style-dictionary": "^5.1.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": ">=22",
+      "onFail": "error"
+    }
+  }
 }
