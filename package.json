@@ -28,7 +28,7 @@
     "@tsconfig/node22": "^22.0.5",
     "style-dictionary": "^5.1.1",
     "tsx": "^4.21.0",
-    "typescript": "^5.9.3"
+    "typescript": "^6.0.2"
   },
   "devEngines": {
     "runtime": {
