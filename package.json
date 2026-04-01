@@ -26,7 +26,7 @@
   "devDependencies": {
     "@tokens-studio/sd-transforms": "^2.0.3",
     "@tsconfig/node22": "^22.0.5",
-    "style-dictionary": "^5.1.1",
+    "style-dictionary": "^5.4.0",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3"
   },
